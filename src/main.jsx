@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import { SimuladorProvider } from './simulador.jsx'
+import { AppProvider } from './estado.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <SimuladorProvider>
+  <AppProvider>
     <App />
-  </SimuladorProvider>,
+  </AppProvider>,
 )
